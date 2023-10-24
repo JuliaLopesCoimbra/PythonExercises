@@ -1,0 +1,5 @@
+nome = input('Nome do aluno: ')
+num1 = float(input("digite a primeira nota da prova A com peso 2:"))
+num2 = float(input("digite a segunda nota da prova B com peso 1:"))
+media = float((num1*2)+num2)/(num1+num2)
+print("%s tem media diante das prova de = %.2f" %(nome,media))
